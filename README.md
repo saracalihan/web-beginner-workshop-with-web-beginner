@@ -2,7 +2,24 @@
 <img width="600" src="images/background.png">
 
 ***MavDurak-IO*** bünyesinde yapılan "***Web Beginner Workshop with Web Beginner***" adlı etkinliğin sunum ve kodları
-## İnternetin tarihi
+
+## İçindekiler
++ [İnternetin Tarihi](#i̇nternetin-tarihi)
++ [Temel kavramlar ve Web'in Çalışma Mantığı](#temel-kavramlar-ve-webin-çalışma-mantığı)
+  + [IP](#ipinternet-protocol)
+  + [MAC](#mac-adresimedia-access-control)
+  + [TCP](#tcptransmission-control-protocol)
+  + [DNS](#dnsdomain-name-system)
+  + [Server](#server)
+  + [ISP](#ispinternet-service-provider-i̇ss--i̇nternet-servis-sağlayıcısı)
+  + [IAN](#ianinternet-area-network)
+  + [Hyper Text](#hypertexthiper-metin)
+  + [HTTP](#httphypertext-transfer-protocol)
+  + [Temel Çalışma Mantığı](#temel-çalışma-mantığı)
++ [Lisans](#lisans) 
+  
+
+## İnternetin Tarihi
 
 <img width="400" src="https://i.pinimg.com/originals/7c/0a/e3/7c0ae333fa4c4428bf67fa14382924d3.png">
 
@@ -43,6 +60,8 @@ TCP'nin çalışma esası üç faz altında incelenebilir.Öncelikle hedefle bir
 
 ### DNS(Domain Name System)
 Alan adı sistemi IP adreslerini alan adları ile haritalar.Tarayıcıda arama çubuğuna [mavidurak.github.io](mavidurak.github.io) size bu adrese karşılık olarak bir IP adresi döndürür.
+
+<img width="400" src="https://www.andronova.net/images/upload/screenshot.1886912829.jpg">
 
 ### Server
 Sunucu temel olarak bir bilgisayardır, içerisinde oyun oynamak veya günlük kullanım yerine belirli programsal işlerin yapılması sağlanır.Bu işler dışında kullanılacak donanıma(ekran, klavye, fare vb.) sahip olması gerekmez.**SSH** gibi protokoller kullanılarak başka bir bilgisayardan erişim kurulabilir.
@@ -92,8 +111,5 @@ HTTP, istemci-sunucu bilgi işlem modelinde bir istek-yanıt protokolü olarak i
 
 ### Temel Çalışma Mantığı
 
-<img width="400" src="https://www.andronova.net/images/upload/screenshot.1886912829.jpg">
-
-
-# License
+# Lisans
 [GPL-3.0 License](LICENSE)
