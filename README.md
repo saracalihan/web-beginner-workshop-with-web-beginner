@@ -25,6 +25,7 @@
 + [DOM Manipülasyonu](#dom-manipülasyonu)
 + [BOM](#bom)
 + [EcmaScript](#ecmascript)
++ [İletişim](#Iletişim) 
 + [Lisans](#lisans) 
   
 
@@ -130,6 +131,8 @@ Tarayıcının adres çubuğuna [mavidurak.github.io](mavidurak.github.io "sitey
 
 Dünya üzerineki Karasal ve denizaltı bağlantıları görüntülemek için [tıklayın](https://www.infrapedia.com/app "https://www.infrapedia.com/app").
 
+> Bahsedilen şehir isimleri temsilidir. Servis sağlayıcınız yoğunluk durumuna göre farklı rotalar kullanabilir. Verilen örnek ağ modellerinin daha iyi anlaşılması için kullanılmıştır.   
+
 ## Tarayıcı nasıl çalışır?
 Tarayıcıların ana görevi belirteceğiniz adresteki sunucuya istek atmak ve bu istegin cevabını size görselleştirmektir.
 
@@ -155,5 +158,13 @@ Kullanıcı tarayıcının arayüzünü kullanarak arama yapmak istediği alan a
 
 ## EcmaScript
 
+# Iletişim
+[Email](mailto:saracalihan@gmail.com "saracalihan@gmail.com") |
+[Twitter](https://twitter.com/saracaIihan "@saracaIihan") |
+[GitHub](https://github.com/saracalihan "https://github.com/saracalihan")
+
+# Katkı
+Bu dokümana ekleme veya düzeltme yapmadan önce lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyunuz.
+
 # Lisans
-[GPL-3.0 License](LICENSE)
+Bu içerik **Alihan SARAÇ** tarafdından "[GPL-3.0 License](LICENSE)" lisansı kullanılarak hazırlanmıştır.
