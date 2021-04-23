@@ -158,13 +158,13 @@ Kullanıcı tarayıcının arayüzünü kullanarak arama yapmak istediği alan a
 
 ## EcmaScript
 
-# Iletişim
+## Iletişim
 [Email](mailto:saracalihan@gmail.com "saracalihan@gmail.com") |
 [Twitter](https://twitter.com/saracaIihan "@saracaIihan") |
 [GitHub](https://github.com/saracalihan "https://github.com/saracalihan")
 
-# Katkı
+## Katkı
 Bu dokümana ekleme veya düzeltme yapmadan önce lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyunuz.
 
-# Lisans
+## Lisans
 Bu içerik **Alihan SARAÇ** tarafdından "[GPL-3.0 License](LICENSE)" lisansı kullanılarak hazırlanmıştır.
