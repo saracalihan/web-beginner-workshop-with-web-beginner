@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo App</title>
+</head>
+
+<body style="background-color: #FBFBFB;">
+  <div class="todo">
+    <div class="header">
+      <h2 class="header-content">MaviDurak-IO</h2>
+    </div>
+    <div class="main">
+      <input type="text" class="input" name="todo-input" id="todo-input" placeholder="My todo is ..."><br>
+      <input type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')"
+        class="input" id="start-date" placeholder="Start date"><br>
+      <input type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')"
+        class="input" id="finish-date" placeholder="Finish date"><br>
+      <input type="checkbox" name="important" id="important">
+      <label for="important">Is important</label>
+      <button id="save">Save Todo</button>
+    </div>
+  </div>
+
+  <div class="list">
+    <div class="header">
+      <h3 class="header-content" style="margin: 5px;">Todos(<em id="todos-lenght"></em>)</h3>
+    </div>
+    <div class="todos">
+      <table id="add-todo-here">
+        </tabel>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('visibilitychange', function logData() {
+      if (document.visibilityState === 'hidden') {
+        document.title = 'Come back pls';
+      }
+      else{
+        setTimeout(function () {
+          document.title = 'Todo App';
+        }, 1000);
+        document.title = 'Welcome back';
+      }
+    });
+
+    let todoName = document.getElementById('todo-input');
+    let isImportant = document.getElementById('important');
+    let startAt = document.getElementById('start-date');
+    let finishAt = document.getElementById('finish-date');
+
+    let todos = [];
+    let todo = {};
+    let todosElement = document.getElementById('add-todo-here');
+    document.getElementById('save').addEventListener('click', function () {
+      if (!todoName.value) {
+        return;
+      }
+      todo = {
+        name: todoName.value,
+        isImportant: isImportant.checked,
+        startAt: new Date(startAt.value),
+        finishAt: new Date(finishAt.value)
+      }
+      todos.push(todo);
+      document.getElementsByClassName('list')[0].style.display = 'flex';
+
+      todos.sort(function (x, y) {
+        return y.isImportant - x.isImportant
+      });
+
+      removeAndAddTodos();
+      document.getElementById('todos-lenght').innerText = todos.length;
+    })
+
+    function todoListComponent(todo) {
+      return `<td title="Todo name">${todo.name}</td>
+        <td title="Total time(hour)">${(todo.finishAt - todo.startAt) / 3600000}</td>
+        <td title="Remaining time(hour)">${Math.floor((todo.finishAt - new Date()) / 3600000)}</td>`
+    }
+
+    function removeAndAddTodos() {
+      todosElement.innerHTML = '' // remove all childs
+      todos.forEach(t => {
+        let todoElement = document.createElement('tr'); // new reference
+        todoElement.innerHTML = todoListComponent(t);
+        todoElement.children[0].className = t.isImportant ? 'important-todo' : '';
+        todosElement.appendChild(todoElement);
+      })
+    }
+  </script>
+</body>
+
+</html>
