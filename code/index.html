@@ -22,7 +22,7 @@
         class="input" id="finish-date" placeholder="Finish date"><br>
       <input type="checkbox" name="important" id="important">
       <label for="important">Is important</label>
-      <button id="save">Save Todo</button>
+      <button id="save" title="CTRL + X">Save Todo</button>
     </div>
   </div>
 
@@ -37,11 +37,16 @@
   </div>
 
   <script>
-    document.addEventListener('visibilitychange', function logData() {
+    document.addEventListener('keydown', function (event) {
+      if (event.ctrlKey && event.key === 'x')
+        save();
+    })
+
+    document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') {
         document.title = 'Come back pls';
       }
-      else{
+      else {
         setTimeout(function () {
           document.title = 'Todo App';
         }, 1000);
@@ -57,7 +62,9 @@
     let todos = [];
     let todo = {};
     let todosElement = document.getElementById('add-todo-here');
-    document.getElementById('save').addEventListener('click', function () {
+    document.getElementById('save').addEventListener('click', () => save());
+
+    function save() {
       if (!todoName.value) {
         return;
       }
@@ -76,7 +83,8 @@
 
       removeAndAddTodos();
       document.getElementById('todos-lenght').innerText = todos.length;
-    })
+      clearInputs();
+    }
 
     function todoListComponent(todo) {
       return `<td title="Todo name">${todo.name}</td>
@@ -92,6 +100,17 @@
         todoElement.children[0].className = t.isImportant ? 'important-todo' : '';
         todosElement.appendChild(todoElement);
       })
+    }
+
+    function clearInputs() {
+      todoName.value = '';
+      startAt.type = 'text';
+      startAt.value = null;
+      startAt.blur();
+      finishAt.type = 'text';
+      finishAt.value = null;
+      finishAt.blur();
+      isImportant.checked = false;
     }
   </script>
 </body>
