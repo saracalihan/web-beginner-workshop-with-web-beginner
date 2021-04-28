@@ -129,7 +129,7 @@ Tarayıcının adres çubuğuna [mavidurak.github.io](mavidurak.github.io "sitey
 
 <img width="400" src="https://1.bp.blogspot.com/-mJyU4E4B264/VnyCPt3cS3I/AAAAAAAADQM/mAH6XLChbcw/s1600/Turkiye-TAE.png">
 
-Dünya üzerineki Karasal ve denizaltı bağlantıları görüntülemek için [tıklayın](https://www.infrapedia.com/app "https://www.infrapedia.com/app").
+Dünya üzerineki karasal ve deniz altı bağlantıları görüntülemek için [tıklayın](https://www.infrapedia.com/app "https://www.infrapedia.com/app").
 
 > Bahsedilen şehir isimleri temsilidir. Servis sağlayıcınız yoğunluk durumuna göre farklı rotalar kullanabilir. Verilen örnek ağ modellerinin daha iyi anlaşılması için kullanılmıştır.   
 
@@ -143,8 +143,21 @@ Kullanıcı tarayıcının arayüzünü kullanarak arama yapmak istediği alan a
 <img width="400" src="https://cdn-images-1.medium.com/max/1024/1*grQU_pdyKp_Dm2hj5jhcXg.png" alt="parsing şeması">
 
 ## Geliştirme Ortamı
+Bu etkinlikte bahsedeceğimiz teknolojiler için kesinlikle kullanılması zorunlu olan bir ortam yoktur.HTML, CSS ve JS tarayıcı üzerinde çalıştırıldığı için herhangi bir tarayıcı geliştirme için yeterli olacaktır.
+
+Kodları yazmak için bit metin editörü yeterlidir ama daha verimli geliştirme için IDE(Integrated Development Environment) kullanılabilir.IDE olarak [Visual Studio Code](https://code.visualstudio.com/), [WebStorm](https://www.jetbrains.com/webstorm/), metin editörü olarak [Sublime Text](https://www.sublimetext.com/), [Brackets](http://brackets.io/) veya terminalden kullanılan [VIM](https://www.vim.org/), [NANO](https://www.nano-editor.org/) gibi programları tercih edebilirsiniz.
+
+<img width="400" src="./images/vscode.png" alt="Visual Studio Code" title="VSCode ekran görüntüsü">
+
+<img width="400" src="./images/vim.png" alt="Vim" title="Eklenti yüklenmiş Vim ekran görüntüsü">
+
+Etkinlik sırasında yerleşik gelen eklentileri nedeniyle Firefox Developer Edition kullanacağız.
 
 ## DOM
+Document Object Model(Belge nesne modeli) kelimelerinin kısaltması olan DOM, sayfa içerisinde bulunan tüm elemanları da nesne olarak kabul eder. Buna göre resim, yazı, form gibi tüm elemanlar nesnedir.DOM sayfa içindeki herhangi bir nesnenin özelliğine müdahale edebilmemize, nesne özelliklerini değiştirebilmemize olanak sağlar. Bunu yapabilmek için de JavaScript gibi bazı script dilleri kullanmamız gerekir.
+
+<img width="400" src="https://www.mediaclick.com.tr/uploads/2018/10/dom_w515.png" alt="Dom">
+
 
 ## HTML
 
@@ -155,9 +168,13 @@ Kullanıcı tarayıcının arayüzünü kullanarak arama yapmak istediği alan a
 ## DOM Manipülasyonu
 
 ## BOM
+Browser Object Model(Tarayıcı nesne modeli), web tarayıcısı tarafından gösterilen tüm nesnelere atıfta bulunan tarayıcıya özgü bir kuraldır. DOM'dan farklı olarak, uygulama için bir standart ve katı bir tanım yoktur, bu nedenle tarayıcı satıcıları BOM'u istedikleri şekilde uygulamakta özgürdür. Bir belgeyi(document) gösteren bir pencere olarak gördüğümüz şeyi, tarayıcı programı nesnelerin hiyerarşik bir koleksiyonu olarak görür. Tarayıcı bir belgeyi ayrıştırdığında, belgeyi tanımlayan ve nasıl görüntülenmesi gerektiğini ayrıntılarıyla anlatan bir nesneler koleksiyonu oluşturur.
 
+Hiyerarşinin en üst seviyesi, belgeyi görüntüleyen pencere hakkındaki bilgileri içeren pencere nesnesidir. Pencere nesnelerinin bazıları, belgeyi ve ilgili bilgileri tanımlayan nesnelerdir.
+
+[Detaylı bilgi](https://www.w3schools.com/js/js_window.asp)
 ## EcmaScript
-
+[http://es6-features.org/](http://es6-features.org/)
 ## Iletişim
 [Email](mailto:saracalihan@gmail.com "saracalihan@gmail.com") |
 [Twitter](https://twitter.com/saracaIihan "@saracaIihan") |
