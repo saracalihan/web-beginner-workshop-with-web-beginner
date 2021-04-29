@@ -1,7 +1,7 @@
 # web-beginner-workshop-with-web-beginner
-<img width="600" src="images/background.png">
+<img width="600" src="assets/background.png">
 
-***MavDurak-IO*** bünyesinde yapılan "***Web Beginner Workshop with Web Beginner***" adlı etkinliğin sunum ve kodları
+***MavDurak-IO*** bünyesinde yapılan "***Web Beginner Workshop with Web Beginner***" adlı etkinliğin sunum ve kodları.Etkinlik kaydına izlemek için [tıklayın](https://youtu.be/qqy5CS3hHjU "https://youtu.be/qqy5CS3hHjU").
 
 ## İçindekiler
 + [İnternetin Tarihi](#i̇nternetin-tarihi)
@@ -147,9 +147,11 @@ Bu etkinlikte bahsedeceğimiz teknolojiler için kesinlikle kullanılması zorun
 
 Kodları yazmak için bit metin editörü yeterlidir ama daha verimli geliştirme için IDE(Integrated Development Environment) kullanılabilir.IDE olarak [Visual Studio Code](https://code.visualstudio.com/), [WebStorm](https://www.jetbrains.com/webstorm/), metin editörü olarak [Sublime Text](https://www.sublimetext.com/), [Brackets](http://brackets.io/) veya terminalden kullanılan [VIM](https://www.vim.org/), [NANO](https://www.nano-editor.org/) gibi programları tercih edebilirsiniz.
 
-<img width="400" src="./images/vscode.png" alt="Visual Studio Code" title="VSCode ekran görüntüsü">
+<img width="400" src="./assets/vscode.png" alt="Visual Studio Code" title="VSCode ekran görüntüsü">
 
-<img width="400" src="./images/vim.png" alt="Vim" title="Eklenti yüklenmiş Vim ekran görüntüsü">
+<img width="400" src="./assets/vim.png" alt="Vim" title="Eklenti yüklenmiş Vim ekran görüntüsü">
+
+[vimrc konfigrasyonum](assets/vimrc)
 
 Etkinlik sırasında yerleşik gelen eklentileri nedeniyle Firefox Developer Edition kullanacağız.
 
@@ -178,14 +180,18 @@ Hiyerarşinin en üst seviyesi, belgeyi görüntüleyen pencere hakkındaki bilg
 
 [Detaylı bilgi](https://www.w3schools.com/js/js_window.asp)
 ## EcmaScript
-[http://es6-features.org/](http://es6-features.org/)
+JavaScript yazımını veya işleyişini kolaylaştıran yeni özellikler.
+[Özellikleri](http://es6-features.org/ "http://es6-features.org/")
+
+[Desteklenen tarayıcılar](https://kangax.github.io/compat-table/es6/ "https://kangax.github.io/compat-table/es6/")
+
 ## Iletişim
 [Email](mailto:saracalihan@gmail.com "saracalihan@gmail.com") |
 [Twitter](https://twitter.com/saracaIihan "@saracaIihan") |
-[GitHub](https://github.com/saracalihan "https://github.com/saracalihan")
+[GitHub](https://github.com/saracalihan "https://github.com/saracalihan") |
 
 ## Katkı
 Bu dokümana ekleme veya düzeltme yapmadan önce lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyunuz.
 
 ## Lisans
-Bu içerik **Alihan SARAÇ** tarafdından "[GPL-3.0 License](LICENSE)" lisansı kullanılarak hazırlanmıştır.
+Bu içerik **Alihan SARAÇ** tarafından "[GPL-3.0 License](LICENSE)" lisansı kullanılarak hazırlanmıştır.
