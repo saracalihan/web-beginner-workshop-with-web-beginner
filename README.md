@@ -151,7 +151,7 @@ Kodları yazmak için bit metin editörü yeterlidir ama daha verimli geliştirm
 
 <img width="400" src="./assets/vim.png" alt="Vim" title="Eklenti yüklenmiş Vim ekran görüntüsü">
 
-[vimrc konfigrasyonum](assets/vimrc)
+> [Kullandığım vimrc dosyam](assets/vimrc)
 
 Etkinlik sırasında yerleşik gelen eklentileri nedeniyle Firefox Developer Edition kullanacağız.
 
