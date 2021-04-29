@@ -160,12 +160,16 @@ Document Object Model(Belge nesne modeli) kelimelerinin kısaltması olan DOM, s
 
 
 ## HTML
+[https://www.w3schools.com/html/html_intro.asp](https://www.w3schools.com/html/html_intro.asp)
 
 ## CSS
+[https://www.w3schools.com/css/css_syntax.asp](https://www.w3schools.com/css/css_syntax.asp)
 
 ## JavaScript
+[https://www.w3schools.com/js/js_intro.asp](https://www.w3schools.com/js/js_intro.asp)
 
 ## DOM Manipülasyonu
+[https://www.w3schools.com/js/js_htmldom_methods.asp](https://www.w3schools.com/js/js_htmldom_methods.asp)
 
 ## BOM
 Browser Object Model(Tarayıcı nesne modeli), web tarayıcısı tarafından gösterilen tüm nesnelere atıfta bulunan tarayıcıya özgü bir kuraldır. DOM'dan farklı olarak, uygulama için bir standart ve katı bir tanım yoktur, bu nedenle tarayıcı satıcıları BOM'u istedikleri şekilde uygulamakta özgürdür. Bir belgeyi(document) gösteren bir pencere olarak gördüğümüz şeyi, tarayıcı programı nesnelerin hiyerarşik bir koleksiyonu olarak görür. Tarayıcı bir belgeyi ayrıştırdığında, belgeyi tanımlayan ve nasıl görüntülenmesi gerektiğini ayrıntılarıyla anlatan bir nesneler koleksiyonu oluşturur.
